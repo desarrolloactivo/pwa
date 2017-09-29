@@ -10,4 +10,4 @@ Progressive Web Application (simple architecture without frameworks)
 
 This new level of quality allows Progressive Web Apps to earn a place on the user's home screen.
 
-(Code samples and other open-source projects.)[https://developers.google.com/web/progressive-web-apps/]
+[Code samples and other open-source projects.](https://developers.google.com/web/progressive-web-apps/)
