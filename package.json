@@ -1,0 +1,58 @@
+{
+  "name": "pwa-initial-project",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "Progressive Web Application (simple architecture without frameworks)",
+  "author": {
+    "name": "desarrolloactivo",
+    "url": "https://desarrolloactivo.com"
+  },
+  "scripts": {
+    "start": "yarn build",
+    "build": "yarn cleandist && webpack --config webpack.config.babel --progress --colors",
+    "watch": "webpack --config webpack.config.dev --colors --watch",
+    "deploy": "yarn build",
+    "cleandist": "rimraf dist"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:desarrolloactivo/pwa-initial-project.git"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^4.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "postcss-loader": "^2.0.6",
+    "pug": "^2.0.0-rc.4",
+    "standard": "^10.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-runtime": "^6.26.0",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.7.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "pug-loader": "^2.3.0",
+    "style-loader": "^0.18.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
