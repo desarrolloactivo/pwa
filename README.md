@@ -1,4 +1,5 @@
-# pwa
+# PWA Initial Project
+
 Progressive Web Application (simple architecture without frameworks)
 
 
