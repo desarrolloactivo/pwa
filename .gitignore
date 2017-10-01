@@ -1,6 +1,8 @@
 node_modules/
 dev/
+dist/
 
+package-lock.json
 yarn.lock
 
 # Compiled source #
