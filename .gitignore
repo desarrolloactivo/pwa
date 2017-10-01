@@ -1,6 +1,8 @@
 node_modules/
 dev/
 
+yarn.lock
+
 # Compiled source #
 ###################
 *.com
