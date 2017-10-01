@@ -12,3 +12,6 @@ Progressive Web Application (simple architecture without frameworks)
 This new level of quality allows Progressive Web Apps to earn a place on the user's home screen.
 
 [Code samples and other open-source projects.](https://developers.google.com/web/progressive-web-apps/)
+
+## Babel
+Forget preset-stage-0, babel-plugin-syntax-async-functions or whatever you can still find on outdated resources. Just use [babel-preset-env.](https://github.com/babel/babel-preset-env)
