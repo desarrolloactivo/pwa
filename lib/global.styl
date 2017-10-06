@@ -1,0 +1,188 @@
+*, *:before, *:after
+  box-sizing border-box
+  margin 0
+  padding 0
+
+body, html
+  font-family 'latoregular', sans-serif
+  font-weight 400
+  font-size 16px
+  margin 0 auto
+  top 0
+  background-color #fff
+  -webkit-font-smoothing antialiased
+  overflow hidden
+  color #444
+  user-select none
+
+ul li
+  list-style none
+  user-select none
+  cursor default
+
+a 
+  text-decoration none
+  color gray
+p   
+  padding-top .5rem
+
+pre 
+  display inline-block
+  width calc(100% + 2rem)
+  margin 1rem -1rem 1.2rem
+  padding 1rem
+  font-size 14px
+  word-break break-all
+  word-wrap break-word
+  color #333333
+  background #f0f0f0
+  border-top 1px solid #E0E0E0
+  border-bottom 1px solid #E0E0E0
+  counter-reset line
+
+h1
+  font-size 1.2rem
+h2
+  font-size 1.1rem
+h3
+  font-size 1rem
+h4
+  font-size .8rem
+
+h1, h2, h3, h4
+  margin 1rem 0 .5rem 0
+img
+  max-width 100%
+
+hr 
+  margin 1rem 0
+
+a:hover 
+  color gray
+
+a:link   
+  text-decoration none 
+
+textarea, input[type]
+  outline none
+
+input[type="text"]:focus 
+  outline none
+
+input:-webkit-autofill
+  box-shadow 0 0 0 30px white inset
+  -webkit-text-fill-color gray !important
+
+textarea[type="text"]:focus 
+  outline none
+
+iframe
+  border 0
+  margin .8rem 0
+
+input[type="text"]:focus
+  outline none
+  
+input[type="submit"]:focus
+  outline none
+  
+input[type="search"]:focus
+  outline none
+  
+select:focus
+  outline none
+
+textarea[type="text"]:focus
+  outline none
+
+textarea:focus, input:focus
+  outline none
+
+button:focus, input:focus
+  outline: none
+
+::-webkit-scrollbar 
+  display none
+
+::-moz-placeholder
+  color #d8d7d7
+
+::-webkit-input-placeholder
+  color #d8d7d7
+
+input, textarea, select
+  appearance none
+
+select
+  background #fff
+  border-radius 0
+
+input
+select
+  border 0
+
+table th, table td
+  padding .5rem 1rem
+  border 1px solid #ddd
+
+.noselect
+  user-select none  
+
+.hide
+  display none
+
+.transition
+  -webkit-transform translateX(50px)
+  -webkit-transform translateZ(-50px) rotateX(95deg)
+  opacity .5
+
+.fadein
+  opacity 1
+  transition opacity .25s ease-in-out
+
+.fadeout
+  opacity 0
+  height 0
+  padding 0 8px
+  overflow hidden
+  transition all .3s ease .15s
+  
+.spinner
+  position absolute
+  top 45%
+  left 48%
+  z-index 1000
+  height 10px
+  width 10px
+  transform translate(-50%, -50%)
+  animation rotate 0.8s infinite linear
+  border 12px solid lighten(#fff, 80%)
+  border-right-color transparent
+  border-radius 50%
+
+.select-style
+  padding 0
+  margin 0
+  overflow hidden
+  background-color #fff
+
+.select-style select
+  padding 5px 8px
+  font-size 1rem
+  color #989898
+  width calc(100% - 32px)
+
+  border none
+  box-shadow none
+  background-color transparent
+  background-image none
+  appearance: none
+
+.select-style select:focus
+  outline none
+
+@keyframes rotate
+  0%    
+    transform rotate(0deg) 
+  100%  
+    transform rotate(360deg)
