@@ -24,6 +24,8 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
     "autoprefixer": "^9.3.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
